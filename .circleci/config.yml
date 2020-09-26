@@ -16,3 +16,8 @@ workflows:
   my_workflow:
     jobs:
       - create_infrastructure
+
+
+#Note: The environment variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and AWS_DEFAULT_REGION were added to the Project Settings in Circle CI.
+#Setting an Environment Variable in a Project:  https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project
+#Setting an Environment Variable in a Context (This environment variable will be available across projects): https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-context
